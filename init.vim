@@ -15,7 +15,7 @@
 "   License: MIT
 
 scriptencoding utf-8
-
+set cc=100
 " Identify platform {
 let g:MAC = has('macunix')
 let g:LINUX = has('unix') && !has('macunix') && !has('win32unix')
